@@ -2,7 +2,7 @@
 Yii AuthClient for Lianluo ( mops-ucenter.lianluo.com)
 
 **Demo**
-https://mops-ucenter.lianluo.com
+https://mops-push.lianluo.com
 
 **Config Setting**
 
