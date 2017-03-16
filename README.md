@@ -1,10 +1,10 @@
 # yii2-authclient
 Yii AuthClient for Lianluo ( mops-ucenter.lianluo.com)
 
-**Demo**
+## Demo
 https://mops-push.lianluo.com
 
-**Config Setting**
+## Config Setting
 
 ```
 'components' => [
@@ -21,3 +21,7 @@ https://mops-push.lianluo.com
     // other components
 ]
 ```
+
+## More
+
+More Docs at [yii2-authclient](https://github.com/yiisoft/yii2-authclient/tree/master/docs)
