@@ -24,11 +24,5 @@
             "zacksleo\\yii2\\authclient\\": "src",
             "zacksleo\\yii2\\authclient\\tests\\": "tests"
         }
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
     }
 }
