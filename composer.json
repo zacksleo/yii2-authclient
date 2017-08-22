@@ -16,7 +16,19 @@
     "require": {
         "yiisoft/yii2-authclient": "^2.1"
     },
+    "require-dev":{
+        "phpunit/phpunit": "4.8.34"
+    },
     "autoload": {
-        "psr-4": { "zacksleo\\yii2\\authclient\\": "src" }
+        "psr-4": {
+            "zacksleo\\yii2\\authclient\\": "src",
+            "zacksleo\\yii2\\authclient\\tests\\": "tests"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }
