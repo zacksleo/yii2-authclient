@@ -13,9 +13,6 @@ cache:
     - $HOME/.composer/cache
     - vendor
 
-services:
-  - mysql
-
 install:
   - travis_retry composer self-update
   - composer config -g github-oauth.github.com caf16441da5ba578b34a765e67e3bf2ad1941389
