@@ -11,9 +11,6 @@ namespace zacksleo\yii2\authclient\tests;
 use yii;
 use yii\authclient\InvalidResponseException;
 use yii\authclient\OAuthToken;
-use yii\authclient\signature\RsaSha;
-use yii\web\HttpException;
-use zacksleo\yii2\authclient\clients\Lianluo;
 
 class LianluoTest extends TestCase
 {
@@ -33,11 +30,11 @@ class LianluoTest extends TestCase
             $this->markTestSkipped("clientSecret is not configured.");
         }
         $oauthClient = Yii::$app->authClientCollection->clients['lianluo'];
-        try{
-            $token = $oauthClient->authenticateClient(['code'=>'1xxxxx']);
+        try {
+            $token = $oauthClient->authenticateClient(['code' => '1xxxxx']);
             $this->assertTrue($token instanceof OAuthToken);
-        }catch (InvalidResponseException $e){
-           return ;
+        } catch (InvalidResponseException $e) {
+            return;
         }
     }
 }

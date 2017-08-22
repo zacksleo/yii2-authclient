@@ -8,7 +8,6 @@
 
 namespace zacksleo\yii2\authclient\tests;
 
-
 use yii\helpers\ArrayHelper;
 
 class TestCase extends \PHPUnit_Framework_TestCase
@@ -54,13 +53,13 @@ class TestCase extends \PHPUnit_Framework_TestCase
                         ]
                     ],
                 ],
-                'user'=>[
-                    'identityClass'=>'zacksleo\yii2\authclient\tests\models\user'
+                'user' => [
+                    'identityClass' => 'zacksleo\yii2\authclient\tests\models\user'
                 ],
                 'request' => [
                     'cookieValidationKey' => 'wefJDF8sfdsfSDefwqdxj9oq',
                     'hostInfo' => 'http://testdomain.com',
-                    'scriptFile' => __DIR__ .'/index.php',
+                    'scriptFile' => __DIR__ . '/index.php',
                     'scriptUrl' => '/index.php',
                 ],
             ]
