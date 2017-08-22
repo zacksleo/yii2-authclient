@@ -6,6 +6,7 @@
 [![StyleCI](https://styleci.io/repos/100697365/shield?branch=master)](https://styleci.io/repos/100697365)
 [![Build Status](https://travis-ci.org/monster-hunter/yii2-authclient.svg?branch=master)](https://travis-ci.org/monster-hunter/yii2-authclient)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/monster-hunter/yii2-authclient/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/monster-hunter/yii2-authclient/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/monster-hunter/yii2-authclient/badges/build.png?b=master)](https://scrutinizer-ci.com/g/monster-hunter/yii2-authclient/build-status/master)
 
 
 Yii AuthClient for Lianluo ( mops-ucenter.lianluo.com)
