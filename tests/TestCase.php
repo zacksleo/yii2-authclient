@@ -59,6 +59,7 @@ class TestCase extends \PHPUnit_Framework_TestCase
                 ],
                 'request' => [
                     'cookieValidationKey' => 'wefJDF8sfdsfSDefwqdxj9oq',
+                    'hostInfo' => 'http://testdomain.com',
                     'scriptFile' => __DIR__ .'/index.php',
                     'scriptUrl' => '/index.php',
                 ],

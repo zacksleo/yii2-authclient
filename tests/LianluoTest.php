@@ -37,7 +37,7 @@ class LianluoTest extends TestCase
             $token = $oauthClient->authenticateClient(['code'=>'1xxxxx']);
             $this->assertTrue($token instanceof OAuthToken);
         }catch (InvalidResponseException $e){
-           return;
+           var_dump($e->getMessage());
         }
     }
 }
